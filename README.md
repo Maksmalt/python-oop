@@ -1,2 +1,6 @@
 # python-oop
-25-feb-2017
+20170225
+
+Description: Experimenting with Python Object Oriented Programming (OOP)
+
+version 0.01
