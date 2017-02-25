@@ -12,7 +12,7 @@ class BankingCustomer:
 		self.amount = amount
 
 		if self.amount > self.balance:
-			print("{} wants to withdraw {} but he has not enough funds to perform this \
+			print("{} wants to withdraw {} USD but he has not enough funds to perform this \
 				transaction.\n".format(self.name, self.amount))
 		else:
 			print("{} USD were taken from the account.\n".format(self.amount))
@@ -36,6 +36,11 @@ customer1.balanceCheck()
 print()
 customer2 = BankingCustomer("Jim")
 customer2.balanceCheck()
+
+customers = [customer1, customer2]
+print("We have {} customers in our Bank and their balances are:".format(len(customers)))
+for customer in customers:
+		customer.balanceCheck()
 
 '''
 	@classmethod
