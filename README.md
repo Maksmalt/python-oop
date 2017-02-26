@@ -1,12 +1,12 @@
 # python-oop
 Document created: 20170225
 Last Change: 20170226
-Current Version: 0.13
+Current Version: 0.10
 
 Description: Experimenting with Python Object Oriented Programming (OOP)
 
 
-Version 0.13:
+Version 0.10:
 Date: 20170226
 Major code re-writing: 
 - Code throughout the document connected with allCustomers dictionary;
